@@ -54,5 +54,5 @@ Copy file `.idea/workspace.xml.example` into `.idea/workspace.xml` **before star
 
 Start CLion, and open the project's top level folder. CLion should automatically detect the top level `CMakeLists.txt` file and provide you with the full set of build targets.
 
-Select menu option **Run ➜ Build**, and then **Run ➜ Install**.
+Select menu option **Build ➜ Build All in 'Debug'**, and then **Build ➜ Install**.
 
