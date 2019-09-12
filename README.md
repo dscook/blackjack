@@ -43,9 +43,6 @@ $ cd build/manual
 $ cmake ../..
 $ make && make install
 $ cd ../..
-
-# Run the binary:
-$ bin/divider 234 5431
 ```
 
 #### Building in CLion (JetBrains IDE)
@@ -56,3 +53,8 @@ Start CLion, and open the project's top level folder. CLion should automatically
 
 Select menu option **Build ➜ Build All in 'Debug'**, and then **Build ➜ Install**.
 
+### Running
+
+To play an interactive game of blackjack, from the base of the repository after building:
+
+$ ./bin/blackjack
