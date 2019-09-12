@@ -33,7 +33,7 @@ There are three empty folders: `lib`, `bin`, and `include`. Those are populated 
 
 The rest should be obvious: `src` is the sources.
 
-Now we can build this project, and below we show three separate ways to do so.
+Now we can build this project, and below we show two separate ways to do so.
 
 #### Building Manually
 
