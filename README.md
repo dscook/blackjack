@@ -57,4 +57,6 @@ Select menu option **Build ➜ Build All in 'Debug'**, and then **Build ➜ Inst
 
 To play an interactive game of blackjack, from the base of the repository after building:
 
+```
 $ ./bin/blackjack
+```
