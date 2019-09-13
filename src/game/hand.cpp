@@ -23,7 +23,7 @@ unsigned short Hand::getScore() const
         maxScore = softScore;
     }
 
-    if (hardScore <= 21 && hardScore > maxScore)
+    if (hardScore > maxScore)
     {
         maxScore = hardScore;
     }

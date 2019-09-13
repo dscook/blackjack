@@ -14,6 +14,7 @@ public:
     Card getCardOne() const;
     virtual Action getAction(Card opponentFaceUpCard) const = 0;
 protected:
+    void printHandScores() const;
     Hand hand_;
 };
 

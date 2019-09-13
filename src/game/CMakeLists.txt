@@ -7,4 +7,4 @@ set(SOURCE_FILES
 add_library(game SHARED STATIC ${SOURCE_FILES})
 
 install(TARGETS game DESTINATION ${BLACKJACK_INSTALL_LIB_DIR})
-install(FILES game.h DESTINATION ${BLACKJACK_INSTALL_INCLUDE_DIR})
+install(FILES game.h card.h shoe.h hand.h player.h customer.h dealer.h DESTINATION ${BLACKJACK_INSTALL_INCLUDE_DIR})

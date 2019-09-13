@@ -1,4 +1,4 @@
-# C++ Implementation of Blackjack
+# C++ Implementation of simple version of Blackjack
 
 ## Acknowledgements
 

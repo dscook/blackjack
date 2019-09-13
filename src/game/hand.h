@@ -11,9 +11,9 @@ public:
     Card getCardOne() const;
     unsigned short getScore() const;
     void addCard(Card card);
-private:
     unsigned short getSoftScore() const;
     unsigned short getHardScore() const;
+private:
     std::vector<Card> cards_;
 };
 

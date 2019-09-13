@@ -1,3 +1,4 @@
+#include <iostream>
 #include "player.h"
 
 Player::Player(Card cardOne, Card cardTwo): hand_(cardOne, cardTwo)
@@ -12,10 +13,15 @@ void Player::receiveCard(Card card)
 
 unsigned short Player::getTotal() const
 {
-    hand_.getScore();
+    return hand_.getScore();
 }
 
 Card Player::getCardOne() const
 {
     return hand_.getCardOne();
+}
+
+void Player::printHandScores() const
+{
+    std::cout << "Soft total (" << hand_.getSoftScore() << ") Hard total (" << hand_.getHardScore() << ")\n";
 }
