@@ -2,9 +2,7 @@ cmake_minimum_required(VERSION 3.2)
 project(game C CXX)
 
 set(SOURCE_FILES
-    game.h
-    game.cpp
-)
+        game.h game.cpp card.h card.cpp shoe.h shoe.cpp hand.h hand.cpp player.h player.cpp customer.h customer.cpp dealer.h dealer.cpp)
 
 add_library(game SHARED STATIC ${SOURCE_FILES})
 
